@@ -1,0 +1,44 @@
+body{
+    background-color: red;
+    font-size: 1.1rem;
+    color: white;
+}
+nav{
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+}
+nav a:hover{
+    transition: 0.5s;
+    background-color: rgb(72, 131, 241);
+    cursor: pointer;
+}
+nav a:visited{
+    color: white;
+}
+h1{
+    font-size: 2rem;
+}
+table,th,td{
+    border-collapse: collapse;
+    border: 2px solid white;
+}
+th{
+    color: darkblue;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 0px 4px;
+}
+td{
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 0px 4px;
+}
+button,input{
+    background-color: black;
+    color:white;
+}
